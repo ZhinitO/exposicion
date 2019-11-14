@@ -1,0 +1,87 @@
+body{
+    background: url(../img/fondo.jpg) ; 
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: cursive;
+    color: skyblue;
+
+}
+/* Forma bordeada */
+form {
+    border: 3px solid #f1f1f1;
+    width: 25%;    
+    margin: auto;
+    margin-top: 140px;
+    background-color: #192c528a;;
+
+}
+
+/* Entradas de ancho completo */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+/* Establecer un estilo para todos los botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Agregar un efecto de desplazamiento para botones */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Estilo extra para el botón cancelar (rojo) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Centre la imagen del avatar dentro de este contenedor */
+.imgcontainer {
+    text-align: center;
+    margin: 50px 0 25px 0;
+    width: 100%;
+}
+
+/* Imagen de avatar */
+img.avatar {
+    width: 70%;
+    border-radius: 50%;
+}
+
+/* Agregar relleno a los contenedores */
+.container {
+    padding: 16px;
+}
+
+/* El texto "Olvidé mi contraseña" */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Cambie los estilos para el intervalo y cancele 
+   el botón en pantallas extra pequeñas */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
