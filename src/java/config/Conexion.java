@@ -8,7 +8,7 @@ public class Conexion {
     Connection con;
     String url = "jdbc:mysql://localhost:3306/BDVElectro";
     String user = "root";
-    String pass = "";
+    String pass = "12345678";
 
     public Conexion() {
         try {
